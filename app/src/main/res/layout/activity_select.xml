@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pemandangan"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Mahasiswa"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        tools:ignore="Autofill,LabelFor,TextFields"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/editTextId"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Nama Mahasiswa"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/editTextNama"
+        android:background="@drawable/buttonshape"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/editTextJurusan"
+        android:background="@drawable/buttonshape"
+        tools:ignore="Autofill,LabelFor,TextFields"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/editTextEmail"
+        android:background="@drawable/buttonshape"
+        tools:ignore="Autofill,LabelFor,TextFields"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:textColor="#ffffff"
+        android:text="Update Mahasiswa"
+        android:layout_marginTop="30dp"
+        android:id="@+id/buttonUpdate"
+        tools:ignore="HardcodedText,MissingConstraints"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonshape"
+        android:text="Hapus Mahasiswa"
+        android:textColor="#ffffff"
+        tools:ignore="HardcodedText,MissingConstraints" />
+</LinearLayout>
